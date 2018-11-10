@@ -1,0 +1,18 @@
+FindBugs - An Open Source Static Code analyser tool for Java
+
+->findbugs open source static code analyzer
+->detect bugs in java
+->it operates on java byteCode,rather than source code
+->potential errors->scariest,scary,troubling,concern
+->possible impact and severity
+
+->right click the project->click on findbugs
+->analayze the Errors
+
+
+FindBugs Eclipse Plugin:
+Help->click on market Place
+->Findbugs->enter Confirm
+->window->pereferences->java->findBugs
+
+

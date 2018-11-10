@@ -1,0 +1,59 @@
+try{
+scanner sc=new scanner(new file("chinese.txt"));
+}
+catch(Exception e)
+{
+sop("could not find");
+}
+public void read()
+{
+while(x.hasNext())
+{
+String a=x.next();
+String b=x.next();
+String c=x.next();
+sop("%s%s",a,b,c);
+}
+}
+
+public void close()
+{
+x.close();
+}
+
+
+exception handling:
+
+
+scanner sc= new scanner(system.in);
+int t= sc.nextInt();
+int n2=sc.nextInt();
+
+probelm solving:
+
+keep moving
+face problem 
+check code by others
+use github 
+stackoverflow - post solutions quora
+working on the projects  - real life problems
+differnt programming language
+big scale project
+coffee app- no of cup to bring coffee
+
+name variabls and sub routine descriptively
+type rather then read
+write a softeare that interests you
+read stack from the top line down
+aim to wrter smallest working
+google like crazy
+build program one step at a time
+ensure breackes alays pair up
+format code correctly
+
+
+
+
+
+
+

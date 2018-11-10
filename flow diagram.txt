@@ -1,0 +1,15 @@
+basics:
+ java,eclipse,mave,junit
+
+level-:
+spring,jsp-servlets,sping mvc,hibernate,mockito
+
+level:
+spring boot,rest,web services,jhipster,spring cloud
+
+front-end:
+javscript,html5,css3,bootstrp,angularjs,react,jquery
+
+others:
+design patterns,
+code quality

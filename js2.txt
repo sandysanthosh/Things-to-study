@@ -1,0 +1,255 @@
+angularjs:
+
+ng-app
+ng-init
+ng-model
+ng-repeat
+
+ng-bind:
+<element ng-bind="">   //bind the data
+
+ng-bind-html:
+->bind the html tag element
+<element ng-bind="expression"></element>
+
+<p ng-bind-html="mytext"></p>
+
+var app=("mycrtl",function($scope){
+$scope.mytext="Welcome to:<h1>java</h1>";
+};
+
+
+ng-blur:
+bind-template:
+{{}}
+
+ng-change:
+<input type="text" ng-change="myfunc()" ng-model="myValue" />
+
+<script>
+angular.module('myapp',[]){
+.controller('myctrl',['$scope',function($scope){
+$scope.count=0;
+$scope.myfunc=function(){
+$scope.count++;
+};
+}]);
+</script>
+
+checkbox:
+
+//ng-model="all"  ng-checked="all"
+<input type="checkbox" ng-model="all">check all<br></br>
+<input type="checkbox" ng-checked="all">Java<br>
+<input type="checkbox" ng-checked="all">cpp<br>
+
+ng-class:
+
+ng-model="home"
+ng-class="home"
+
+->dynamically access the css element
+<style>
+.normal{
+color:blue;
+padding:20px:
+font-family:"courier";
+}
+.medium{
+color:red;
+padding:20px:
+font-family:"courier";
+}
+</style>
+<body ng-app="">
+<select ng-model="home">
+<option value="normal">Normal</option>
+<option value="medium">Medium</option>
+</select>
+
+<div ng-class="home">
+<h1>heaader is the </h1>
+<p> this is olf name </p>
+</div>
+
+ng-cloak:
+<p ng-cloak>{{ 5 + 5 -5 -10 }} </p>
+->prevent document from showing incomplete angularjs
+
+ng-controller:
+adds a controller class to view
+
+ng-copy:
+ng-cut:
+ng-dbclick:
+ng-focus:
+ng-hide:
+hg-href:
+
+
+ng-hide:
+<body ng-app="">
+<input type="checkbox" ng-model="myvar">
+<div ng-hide="myvar">
+<h1>welcome </h1>
+</div>
+
+ng-if:
+<body ng-app="">
+<input type="checkbox" ng-model="myvar" >
+<div ng-if="myvar">
+<h1>welcome </h1>
+</div>
+
+ng-include:
+
+<div ng-include="include.html></div>
+
+ng-init:
+
+ng-init="mytext='hello'">
+
+ng-jq:
+
+->sets jquery variable:
+
+<html ng-app ng-jq="jQueryLib">
+</html>
+
+ng-keydown,ng-keypress,ng-keyup
+
+ng-list:
+
+ng-open:
+
+<body ng-app="">
+click here toshow content:<input type="checkbox" ng-model="showDetails">
+<details ng-open="showDetails">
+<summary>copyright</summary>
+</details>
+
+ng-options:
+
+<select ng-model="selectedName" ng-options="item for item in names">  
+</select>
+
+app.controller('myCtrl', function($scope) {  
+    $scope.names = ["Java", ".Net", "PHP" , "C/C++", "Oracle"];  
+});
+
+
+ng-src:
+->image source
+<img ng-src="http://www.abc.com/xyz/{{hash}}" alt="Description"/>  
+
+ng-show:
+ng-hide:
+
+ng-style:
+->set css style
+
+<h1 ng-style="myObj"> welcome</h1>
+app.controller("myCtrl",function($scope){
+$scope.myObj={
+"color:"white",
+"font-size":"40px",
+"padding":"40px"
+}
+});
+
+
+ng-submit:
+
+->mandatory to use ng-submit.
+->function to be executed when the form is submitted
+<form ng-submit="expression"></form>
+
+
+<body ng-app="myapp" ng-controller="myctrl">
+<form ng-submit="myfunc()">
+<input type="text">
+<input type="submit">
+</form>
+
+var app = angular.module("myApp", []);  
+app.controller("myCtrl", function($scope) {  
+$scope.myTxt = "Nothing is submitted.";  
+$scope.myfunc=function(){
+$scope.mytxt="submit button successful";
+}
+});
+
+
+ng-switch:
+
+<select ng-model="myvar">
+<option value="animals">animals
+<option value="tiger">tiger
+<option value="lion">lion
+</select>
+
+<div ng-switch="myvar">
+<div ng-switch-when="animals">
+<h1>animals is here</h1>
+</div>
+
+<div ng-switch="myvar">
+<div ng-switch-when="animals">
+<h1>animals is here</h1>
+</div>
+
+<div ng-switch="myvar">
+<div ng-switch-when="tiger">
+<h1>tiger is here</h1>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

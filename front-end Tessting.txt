@@ -1,0 +1,20 @@
+164\
+
+
+
+earl.io - crowd sourced fornt-end testing
+jasmine - javascript
+castus- little specs desribe element
+needle-screen show of changes
+fragile css and markup should not be limitation
+
+selenium - mini script run after every changes & click button to run in web
+
+usertesting.com-manual testing 
+
+real user monitoring
+
+
+
+jasmine - TDD
+

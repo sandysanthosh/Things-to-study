@@ -1,0 +1,29 @@
+debug
+stepinto 
+
+preferences->java->debug->step filtering
+->use step filters -> ok
+
+right ->show annnotaion
+->show author
+
+formatter off:
+
+
+quick search
+->template
+->
+
+
+
+value:
+change the value 
+stepinto:(f5)
+
+step over:
+
+
+
+
+
+

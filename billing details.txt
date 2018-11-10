@@ -1,0 +1,21 @@
+sematic ui shippment details cotains:
+
+name
+billing address
+state
+country
+
+billing type:
+card type
+card number
+cvc
+expiration
+
+receipt:
+send receipt to:
+submit order button
+
+
+->card display the user information
+->items->header
+

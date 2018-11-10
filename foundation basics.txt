@@ -1,0 +1,235 @@
+foundation 
+
+DOCS;
+->ADD THE CDN TEMPLATE
+->https://foundation.zurb.com/sites/docs/button.html
+
+REFERS THE LINK BELOW:
+
+
+
+mobile first
+
+javscript file:
+what inputjs
+foundation.min.js
+foundation.min
+jqueryui
+
+
+download foundation complete
+
+
+custom download
+
+
+docs->drill down menu
+
+what it is 
+how to use it
+
+templates
+foundation kits
+foundation building blocks
+
+
+custom build:
+
+https://foundation.zurb.com/sites/download.html/#customizeFoundation
+
+
+select the download custom build
+
+npm:
+
+->node -v
+->npm install -g foundation-cli
+->foundation new
+->A website
+->foundation -pg
+->include a sass compiler
+->foundation watch
+
+
+grid:
+
+12 column-grid
+
+<div class="row" style:"background-color:red">
+<div class="columns small-3">contentM</div>
+<div class="columns small-9">contentM</div>
+</div>
+
+
+ctrl+shift+i->
+
+device tool bar->
+
+<div class="row">
+<div class="small-12 meduim-6 columns" style="background-color:gray">
+</div>
+
+FIRST PROGRAM:
+
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation Starter Template</title>
+    <!-- Compressed CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/css/foundation.min.css" integrity="sha256-itWEYdFWzZPBG78bJOOiQIn06QCgN/F0wMDcC4nOhxY=" crossorigin="anonymous" />
+
+<!-- Compressed JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.4.3/js/foundation.min.js" integrity="sha256-Nd2xznOkrE9HkrAMi4xWy/hXkQraXioBg9iYsBrcFrs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/foundation.css" />
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.min.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+    
+    
+    
+<div class="alert callout" data-closable>
+  <h5>This is Important!</h5>
+  <p>But when you're done reading it, click the close button in the corner to dismiss this alert.</p>
+  <p>I'm using the default <code>data-closable</code> parameters, and simply fade out.</p>
+  <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+<div class="success callout" data-closable="slide-out-right">
+  <h5>This a friendly message.</h5>
+  <p>And when you're done with me, I can be closed using a Motion UI animation.</p>
+  <button class="close-button" aria-label="Dismiss alert" type="button" data-close>
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+  </body>
+</html>
+
+form
+
+checkbox:
+<div class="ui checkbox">
+  <input type="checkbox" name="example">
+  <label>Make my profile visible</label>
+</div>
+
+radio:
+<div class="ui radio">
+  <input type="radio" name="example">
+
+slider:
+<div class="ui slider checkbox">
+  <input type="checkbox" name="example">
+
+toggle:
+<div class="ui slider checkbox">
+<div class="ui toggle checkbox">
+
+
+
+dropdown:
+
+
+
+about us:
+
+<div class="ui celled horizontal list">
+  <div class="item">About Us</div>
+  <div class="item">Contact</div>
+  <div class="item">Support</div>
+</div>
+
+size:
+
+mini
+tiny
+small
+large
+big
+huge
+massive
+
+floated:
+
+https://semantic-ui.com/elements/list.html
+
+add friend list
+
+
+dropdown:
+
+currently loading  data
+
+<div class="ui loading dropdown">
+  Dropdown <i class="dropdown icon"></i>
+  <div class="menu">
+    <div class="item">Choice 1</div>
+    <div class="item">Choice 2</div>
+    <div class="item">Choice 3</div>
+  </div>
+</div>
+
+diable:
+
+
+menu diretion:
+
+embed:
+
+youtube video:
+
+<div class="ui embed" data-source="youtube" data-id="O6Xo21L0ybE" data-placeholder="/images/image-16by9.png">
+</div>
+
+
+modals:
+
+
+behaviour:
+
+show
+hide
+toggle
+refresh
+show dimmer
+hide dimmer
+hide others
+hideall
+cache sizes
+can fit
+is active
+set active
+
+
+callbacks:
+
+onShow
+onVisible
+onHide
+onHidden
+onApprove
+onDeny
+
+MOdal settings:
+
+detachable
+autofocus
+observeChanges
+allowMultiple
+offset
+context
+closable
+dimmerSettings
+transition
+duration
+queue

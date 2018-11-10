@@ -1,0 +1,277 @@
+semantic ui:
+
+ 
+semantic ui:
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Semantic UI CDN</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.9/semantic.min.js"></script>
+</head>
+<body>
+      <!-- Your Semantic UI Code -->
+</body>
+</html>
+
+
+responsive framework layouts
+
+bootstrap
+zurb foundation
+semantic->natural language
+
+
+accordion
+
+cdn:
+https://gist.github.com/Miserlou/0438c04ce8967672bf64811002d77c1e
+
+pros:
+caching
+multiple verions
+
+
+intergrations:
+
+react
+ember
+meteor
+angular
+
+cons:
+customization
+
+terminology:
+
+elements
+collections
+views
+modules
+types
+variations
+contents
+
+installations:
+
+custom styles
+integration
+
+semantic:
+
+div class='ui large red button'>
+natural langage
+no 
+
+ui selection dropdown
+
+->semantic ui  elements:
+
+containers
+segments
+buttons
+icons
+flags
+images
+inputs
+labels
+list
+dividers
+headers
+loaders
+rails
+reveal 
+steps
+
+->codepen.io:
+
+->containers:
+
+elements that will work to limit max width ret to page
+
+<div class='ui container'></div>
+<div class='ui text container'>
+<div class='ui right aligned container</div>
+<div class='ui justified container</div>
+<div class='ui left aligned container'</div>
+</div>
+
+
+<body class='ui container'>   --->give few white space all the margin
+
+segments:
+help to group component
+
+segments
+raised
+stacked
+piled vertical
+
+additinal variations:
+
+attached
+comapacted
+clearing
+text aligment
+basic
+
+buttons:
+twitter,facbook,submit,calender
+
+buttons:
+
+class='ui button'
+class='ui button primary'
+class='ui button secondary'
+class='ui button teritray'
+
+animted button:
+
+ui change when click it.
+
+<button='ui animated button'>
+<button='visible button>
+<div class='visible content'>followme</div>
+<div class='hidden content'>@facebook</div>
+</button>
+
+button:
+
+label
+icon->save icon->  <i class='save icon'></i>
+inverted-><div class='ui inverted segment'></div>
+content->
+varitions->
+or-><div class='or'></div>
+facebook-><button class='ui facebook icon'>
+twitter-><button class='ui twitter icon'>
+
+vertical button->
+<div class='ui massive vertical red buttons'>
+<button class='ui button>BUtton 1</button>
+<button class='ui button>BUtton 2</button>
+</div>
+
+Icons:
+full font awesome library
+
+loading->
+variations size->1,2,3
+color->
+
+<i class='green inverted large circular flag icon'></li>
+<i class='purple inverted large bordered rocket icon'></li>
+
+flags:
+
+no types
+no states
+no variations
+
+Images:
+
+<img src="" class='ui tiny image'/>
+<img src="" class='ui medium image'/>
+<img src="" class='ui massive image'/>
+<img src="" class='ui small rounded image'/>
+<img src="" class='ui small circular image'/>
+<img src="" class='ui small middle aligned image'/>
+<img src="" class='ui clearing basic segment'/>
+
+inputs:
+
+types:
+
+<input placeholder='ui input'>
+<input placeholder='ui focus input'>
+<input placeholder='ui icon loading input'>
+<div class='ui error input'><input placeholder='invalid data'/>
+<input type="text" plsceholder="amount">
+
+<buttons class='ui primary button'>
+<buttons class='ui reg right labeled icon button'><i class="trach icon">
+
+
+giving value stars:
+
+<div>
+<div class='ui right labeled input'>
+<input type='number' min=0 max=5/>
+<label class=' ui label'>stars</label>
+</div>
+
+
+input Types:
+
+<div class='ui input'>
+<input placeholder='ui focus input'>
+</input>
+
+loading:
+<div><input placeholder='ui icon loading input'></input></div>
+<input placeholder='ui error input'></input>
+<input placeholder='invalid data'></input>
+<input placeholder='search help'><i class='help icon'></i></input>
+
+<div class="ui corner labeled input">
+<input type="text" placeholder="Name...">
+<div class="ui corner label">
+<i class="asterisk icon"></i>
+</div>
+</div>
+
+<div class="ui corner labeled input">
+<div class="ui label">$</label>
+<input type="text" placeholder="Name...">
+<div class="ui basic label">.00</div>
+</div>
+
+
+Labels:
+
+ui label:
+
+<div class='ui image label'>Default pointing</div>
+<div class='ui left pointing label'>left </div>
+<div class='ui bottom pointing label'>bottom </div>
+<div class='ui top pointing label'>top </div>
+
+Tag:
+
+<div class='ui tag label'>javascript</div> <!-- Tag -->
+
+horizontal:
+
+<div class='ui horizontal label'>javascript</div> <!-- Tag -->
+
+massive orange button:
+
+<div class='ui massive orange label'><div class='details'>Users</div></div> <!-- Tag -->
+
+variations:
+
+circular
+basic
+color
+size
+
+<div class='ui tag labels'>
+<!-- <div class='ui cirular labels'> circular button-->
+<div class='ui red label'>css</div>
+<div class='ui blue label'>less</div>
+<div class='ui green label'>javascript</div>
+<div class='ui purple label'>Layout</div>
+</div>
+
+Lists:
+
+<i class='rss icon'></i>rss
+<i class='css icon'></i>css
+<i class='html5 icon'></i>html5
+
+<img src='http://' class='ui avatar image'/>
+<div class='top aligned content'>top</div>
+<div class='middle  aligned content'>middle</div>
+<div class='bottom aligned content'>bottom</div>

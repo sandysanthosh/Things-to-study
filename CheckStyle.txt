@@ -1,0 +1,20 @@
+CheckStyle:
+
+->check the development tool to help programmers write java code that adheres to a codin standards
+->checkstyle ideal for projects that want to enforce a coding standards
+->check verifies the source code and shows errors which violates the 
+coding standards set for the project.
+
+help->marlet place
+->checkstyle->checkstyle plugin 7.6.0
+->window->perefences->check styles
+
+default:
+->google checks
+->sun checks
+
+->google checks->configure
+
+->project->properties->enable->checkstyle active
+
+

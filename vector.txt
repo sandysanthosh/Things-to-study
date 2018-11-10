@@ -1,0 +1,55 @@
+vector
+synch
+threadsafe
+
+<vector>  vector=new <vector>();
+
+arrrylist:
+not syn
+not thread
+
+linkedlist:
+each item is node
+first item-->head,
+end ->null
+
+EmployeeNode:
+
+pulic class Employeeode{
+
+private Employee employee;
+private EmployeeNode next;
+
+getters,setters
+
+
+}
+
+EmployeeLinkedList.java:
+
+EmployeeLinkedList:
+
+addToFront(Employee employee){
+EmployeeNode node=new EmployeeNode(employee);
+node.setNext(head);
+head=node;
+}
+public void printList(){
+EmployeeNode Current = head;
+sysout("head")
+while(current != null){
+System.out.println(current);
+current=current.getnext();
+}
+
+}
+
+
+
+
+
+
+
+
+
+

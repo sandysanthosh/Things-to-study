@@ -1,0 +1,112 @@
+less:
+
+compile to less
+intro programming featues to css
+looks and feel like css
+
+ie.valid less
+
+<head>
+<link rel="stylesheet/less" type="text/css" href="css/my.less>
+<script src="js/less.js" type="text/javascript"></script>
+<script src="css/less.css" type="text/javascript"></script>
+</head>
+
+.less:
+<link rel="stylesheet/less" type="text/css" href="styles.less" />
+<script src="less.js" type="text/javascript"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.7.2/less.min.js"></script>
+
+
+my.less:
+
+@import "init.css"
+@main-color: Pink;
+
+html
+{
+}
+body
+{
+background:@main-color;
+}
+
+less on the server:
+
+support server:
+
+node.js
+asp.net
+
+
+node:
+
+->@ npm install install
+->var less=require('less');
+->less.render(lessContents,
+            function(e,css){
+            console.log(css);
+            });
+
+DOT LESS:
+/*...*/ commeents
+//comments too
+
+#main
+{
+h1{
+font-size:@baseFontSize;
+}
+}
+
+less extensions:
+
+@import "init-css";
+@import "colors";
+@main-color:Black;
+
+
+color functions:
+
+color:lighten(@color,%10);
+color:darken(@color,%10);
+color:saturate(@color,%10);+
+color:desaturate(@color,%10);
+color:spin(@color,%10);
+color:mix(@color,%10);
+
+//math
+
+@rnd:round(3.14);
+@top:ceil(3.14);
+@bot:floor(3.14);
+@per:percentage(.14);
+
+
+varables:
+@a:Black;
+@b:4px;
+@c:1.0em;
+@d:Helvectica,sans serif;
+
+opeations:
+
+font-size:4px+4;
+font-size:20px*.8;
+color:#FFF/4;
+width:(100%/2)+25%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

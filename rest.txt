@@ -1,0 +1,56 @@
+https://chandoo.org/wp/2011/08/29/introduction-to-vba-macros/
+
+Services/SOA/MicroServices/Webservices
+
+RPC:
+EAI:
+
+representational state transfer:
+
+client--->server
+
+building distributed system
+
+business to business
+
+service oriented architecture
+
+grid computing
+
+HTTP 4 basic method for CRUD:
+(create,read,update,delete)
+get:Retrieve representation of resource
+put:update/modify
+post:new resource
+delete:delete an existing resource
+
+
+REST Design:
+-api/end-point/All routes
+-course/java/guvi/book/series/GOT etc everything should noun
+-use delete verb to remove single element
+-same path(url) pattern throughout the collection
+
+url path:
+
+-GET/Course/Java.json/lang=eng
+-GET/Course/Java.json/lang=eng&level=Player
+-GET/V1/Java.json?lang=eng
+-GET/V2/Java.json?lang=eng
+-GET/V3/Java.json?lang=eng&level=player
+
+->versioning
+
+
+
+
+
+
+
+
+
+
+
+
+
+

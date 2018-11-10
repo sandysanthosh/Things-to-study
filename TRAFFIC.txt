@@ -1,0 +1,9 @@
+TRAFFIC:
+
+t-traffic the probelm
+R-reproduce the failure
+a-automate and simplify
+f-find the infection origins
+f-focus on likely origins
+I-isolate the infection chain
+C-correct the defect
